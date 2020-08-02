@@ -437,7 +437,34 @@ button:hover::after{
 
 /*****************************INFO CSS************************************************/
 
-.text{
+.textinfo{
+    padding: 150px;
+    margin: 0;
+    height: 650px;
+    color: #000;
+    background-image: linear-gradient(to bottom right,black, skyblue, black);
+}
+}
+
+.textinfo  h5{
+    margin: 0;
+    font-size: 1.1em;
+    position: relative;
+    color: #000;
+}
+
+.textinfo img{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    left: 1000px;
+    box-shadow: -5px 5px 20px #000,
+                  -10px 10px 30px #000,
+                  -20px 15px 40px #000,
+                  -25px 20px 50px #000;
+}
+/**************************KONTAKTS*****************************************************/
+.textkontakt{
     padding: 150px;
     margin: 0;
     height: 650px;
@@ -445,14 +472,106 @@ button:hover::after{
     background-image: linear-gradient(to bottom right,black, skyblue, black);
 }
 
-.text, h5{
+.textkontakt, h5{
     margin: 0;
     font-size: 1.1em;
     position: relative;
     color: #000;
 }
 
-.text img{
+.textkontakt img{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    left: 1000px;
+    box-shadow: -5px 5px 20px #000,
+                  -10px 10px 30px #000,
+                  -20px 15px 40px #000,
+                  -25px 20px 50px #000;
+}
+
+/**************************ПОРТФОЛИО**********************************************/
+/*@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800,900&display=swap');
+
+body{
+    font-family: Georgia, Times, 'Times New Roman', serif, sans-serif;
+    font-size: 1.3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: linear-gradient(to bottom right,black, skyblue, black);
+}
+*/
+
+.container{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container .card{
+    position: relative;
+    background: #fff;
+    margin: 10px;
+    padding: 15px;
+}
+
+.container .card .imgBx{
+    flex: 0 0 400px;
+}
+
+.container .card .imgBx img{
+    max-width: 100%;
+}
+
+.container .card .content{
+    margin-left: 20px;
+}
+
+/*@media(max-width:991px){
+    .container
+    {
+        flex-direction: column;
+    }
+}
+
+@media(max-width:768px){
+    .container
+    {
+        flex-direction: column;
+    }
+    .container .card
+    {
+        flex-direction: column;
+        max-width: 350px;
+    }
+    .container .card .imgBx
+    {
+        max-width: 100%;
+    }
+    .container .card .content{
+        margin-left: 0;
+    }
+}*/
+
+/***************************Цени**********************************************/
+.textprice{
+    padding: 150px;
+    margin: 0;
+    height: 650px;
+    color: #000;
+    background-image: linear-gradient(to bottom right,black, skyblue, black);
+}
+
+.textprice, h5{
+    margin: 0;
+    font-size: 1.1em;
+    position: relative;
+    color: #000;
+}
+
+.textprice img{
     margin: 0;
     padding: 0;
     position: absolute;

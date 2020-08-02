@@ -30,8 +30,8 @@
             <div class="dropdown">
                 <button class="dropbtn">Meню</button>
                 <div class="dropdown-content">
-                    <a href="{% url 'base' %}">Головна</a>
-                    <a href="{% url 'price' %}">ПОСЛУГИ</a>
+<!--                    <a href="{% url 'base' %}">Головна</a>-->
+                    <a href="{% url 'poslug' %}">ПОСЛУГИ</a>
                     <a href="{% url 'portfolio' %}">ПОРТФОЛІО</a>
                     <a href="{% url 'price' %}">ЦІНИ</a>
                     <a href="{% url 'info' %}">ІНФО</a>
@@ -46,11 +46,6 @@
             <h2>DEV<span>EL</span>OPED by HU<span>M</span>AN</h2>
         </div>
     </div>
-
-
-    {% block content %}
-
-    {% endblock content %}
 
     <div class="text">
         <img src="{% static 'images/IT12.jpg' %}" width="700px">

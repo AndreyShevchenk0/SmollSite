@@ -1,0 +1,47 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="data:;base64,=">
+    <link rel="stylesheet" href="style.css">
+    <link href="{% static 'mysite/style.css' %}" rel="stylesheet" type="text/css"/>
+    <title>Розробка сайтів під ключ.На Python/Django.</title>
+
+</head>
+
+<body>
+
+<!--            <div class="dropdown">-->
+<!--                <button class="dropbtn">Meню</button>-->
+<!--                <div class="dropdown-content">-->
+<!--                    <a href="{% url 'base' %}">Головна</a>-->
+<!--                    <a href="{% url 'price' %}">ПОСЛУГИ</a>-->
+<!--                    <a href="{% url 'portfolio' %}">ПОРТФОЛІО</a>-->
+<!--                    <a href="{% url 'price' %}">ЦІНИ</a>-->
+<!--                    <a href="{% url 'info' %}">ІНФО</a>-->
+<!--                    <a href="{% url 'kontakt' %}">ЗВ'ЯЗОК</a>-->
+<!--                </div>-->
+<!--            </div>-->
+    {% block content %}
+
+    {% endblock  %}
+
+
+    <div class="footer">
+        <div class="icons">
+            <h4>Design: Andii Shevchenko</h4>
+            <h3>Всі права захишені 2020 р. Soft Developer by Andii Shevchenko</h3>
+            <ul class="sci">
+                <li><a href="#"><img src="{% static 'images/Facebook.png' %}"></a></li>
+                <li><a href="#"><img src="{% static 'images/twitter.png' %}"></a></li>
+                <li><a href="#"><img src="{% static 'images/instagram.jpg' %}"></a></li>
+            </ul>
+        </div>
+    </div>
+
+</body>
+
+</html>

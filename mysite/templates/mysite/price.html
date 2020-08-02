@@ -1,16 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="data:;base64,=">
-    <link rel="stylesheet" href="price.css">
-    <title>Розробка сайтів під ключ.На Python/Django.</title>
-</head>
-<body>
+{% extends 'mysite/head.html' %}
+{% load static %}
+{% block content %}
     
-    <div class="text">
-        <img src="images/IT31.jpg" width="600px">
+    <div class="textprice">
+        <img src="{% static 'images/IT31.jpg' %}" width="600px">
         <h1>Ціни!</h1>
         <h5>SEO-оптимізація від 400 у.е на місяць</h5>
         <h5>Landing Page від 500 у.е</h5>
@@ -25,5 +18,4 @@
         <h5>Ми з розумінням ставимося до Ваших потреб.</h5>
     </div> 
 
-</body>
-</html>
+{% endblock %}

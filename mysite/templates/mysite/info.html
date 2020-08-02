@@ -1,8 +1,9 @@
-{% extends 'mysite/base.html' %}
+{% extends 'mysite/head.html' %}
+{% load static %}
 {% block content %}
-    <div class="text">
-        <img src="images/IT31.jpg" width="600px">
-        <h2>ІНФО + інший WTF :)</h2>
+    <div class="textinfo">
+        <img src="{% static 'images/IT31.jpg' %}" width="600px">
+        <h3>ІНФО + інший WTF :)</h3>
         <h3> Часто задавані питання....Чому? Як? Навіщо? </h3>
         <h5>Надійність = Python</h5>
         <h5>Швидкість для Розробника = Django </h5>
@@ -20,4 +21,4 @@
         <h5>збільшує довіру у нових користувачів. </h5>
         <h5>телефонуйте: +38(097)0698585</h5>
     </div> 
-{% endblock content %}
+{% endblock %}

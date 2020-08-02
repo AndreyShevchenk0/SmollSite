@@ -15,3 +15,6 @@ def portfolio(request):
 
 def price(request):
     return render(request, 'mysite/price.html')
+
+def poslug(request):
+    return render(request, 'mysite/poslug.html')

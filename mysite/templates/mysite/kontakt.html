@@ -1,16 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="data:;base64,=">
-    <link rel="stylesheet" href="kontakt.css">
-    <title>Розробка сайтів під ключ.На Python/Django.</title>
-</head>
-<body>
+{% extends 'mysite/head.html' %}
+{% load static %}
+{% block content %}
     
-    <div class="text">
-        <img src="images/IT3.jpg" width="500px">
+    <div class="textkontakt">
+        <img src="{% static 'images/IT3.jpg' %}" width="500px">
         <h1>КОНТАКТИ</h1>
         <h5>Андрій Шевченко</h5>
         <h5>Python Software Engineer</h5>
@@ -20,5 +13,4 @@
         <h5>Працюем 25/8 :) </h5>
     </div>
 
-</body>
-</html>
+{% endblock %}

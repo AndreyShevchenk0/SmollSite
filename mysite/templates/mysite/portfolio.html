@@ -1,18 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="data:;base64,=">
-    <link rel="stylesheet" href="portfolio.css">
-    <title>Розробка сайтів під ключ.На Python/Django.</title>
-</head>
-<body>
+{% load static %}
+
+{% block content %}
     
     <div class="container">
         <div class="card">
             <div class="imgBx">
-                <img src="images/ITP.png">
+                <img src="{% static 'images/ITP.png' %}">
             </div>
             <div class="content">
                 <h2>Сантехнік</h2>
@@ -27,7 +20,7 @@
         </div>
         <div class="card">
             <div class="imgBx">
-                <img src="images/ITE.png">
+                <img src="{% static 'images/ITE.png' %}">
             </div>
             <div class="content">
                 <h2>Електрік</h2>
@@ -41,7 +34,7 @@
         </div>
         <div class="card">
             <div class="imgBx">
-                <img src="images/ITA.png">
+                <img src="{% static 'images/ITA.png' %}">
             </div>
             <div class="content">
                 <h2>Авто Сервіс</h2>
@@ -54,7 +47,7 @@
         </div>
         <div class="card">
             <div class="imgBx">
-               <img src="images/ITR.png">
+               <img src="{% static 'images/ITR.png' %}">
             </div>
             <div class="content">
                 <h2>Агенція Нерухомості</h2>
@@ -67,5 +60,4 @@
         </div>
     </div>
 
-</body>
-</html>
+{% endblock %}
