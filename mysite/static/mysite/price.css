@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    font-family: Georgia, Times, 'Times New Roman', serif, sans-serif;
+    font-size: 1.3em;
+}
+
+.text{
+    padding: 150px;
+    margin: 0;
+    height: 650px;
+    color: #000;
+    background-image: linear-gradient(to bottom right,black, skyblue, black);
+}
+  
+.text, h5{
+    margin: 0;
+    font-size: 1.1em;
+    position: relative;
+    color: #000;
+}
+  
+.text img{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    left: 1000px;
+    box-shadow: -5px 5px 20px #000,
+                  -10px 10px 30px #000,
+                  -20px 15px 40px #000,
+                  -25px 20px 50px #000;
+}
