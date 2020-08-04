@@ -14,17 +14,16 @@
 
 <body>
 
-<!--            <div class="dropdown">-->
-<!--                <button class="dropbtn">Meню</button>-->
-<!--                <div class="dropdown-content">-->
-<!--                    <a href="{% url 'base' %}">Головна</a>-->
-<!--                    <a href="{% url 'price' %}">ПОСЛУГИ</a>-->
-<!--                    <a href="{% url 'portfolio' %}">ПОРТФОЛІО</a>-->
-<!--                    <a href="{% url 'price' %}">ЦІНИ</a>-->
-<!--                    <a href="{% url 'info' %}">ІНФО</a>-->
-<!--                    <a href="{% url 'kontakt' %}">ЗВ'ЯЗОК</a>-->
-<!--                </div>-->
-<!--            </div>-->
+            <div class="Head">
+                <div class="contentHead">
+                    <a href="{% url 'base' %}">ГОЛОВНА</a>
+                    <a href="{% url 'poslug' %}">ПОСЛУГИ</a>
+                    <a href="{% url 'portfolio' %}">ПОРТФОЛІО</a>
+                    <a href="{% url 'price' %}">ЦІНИ</a>
+                    <a href="{% url 'info' %}">ІНФО</a>
+                    <a href="{% url 'kontakt' %}">ЗВ'ЯЗОК</a>
+                </div>
+            </div>
     {% block content %}
 
     {% endblock  %}
