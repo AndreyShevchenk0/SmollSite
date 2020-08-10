@@ -90,6 +90,7 @@ h1 span{
 .menu{
   margin: 0;
 }
+
 .dropbtn {
   background-color: #000;
   color: #a017df;
@@ -137,8 +138,8 @@ h1 span{
 /********************************Меню Head**************************************/
 
 .Head {
-  padding: 10px;
-  margin: 0;
+  padding: 13px;
+  /*margin: 0;*/
   width: 100%;
   display: flex;
   box-sizing: border-box;/* Убрали горизонт скрол */
@@ -304,8 +305,9 @@ h1 span{
   padding: 0;
   margin: 0;
   position: relative;
-  height: 900px;
-  background: #c9f8c9;
+  height: 1100px;
+  background: #fff;
+  /*background: #c9f8c9;*/
   color: #000;
 }
 .text2 h3{
@@ -325,8 +327,8 @@ h1 span{
   margin: 0;
   position: absolute;
   box-sizing: border-box;/*текст в боксе*/
-  max-width: 800px;
-  left: 1000px;
+  max-width: 900px;
+  left: 900px;
 }
 
 .text2 .textMy2{
@@ -334,8 +336,8 @@ h1 span{
   margin: 0;
   position: absolute;
   box-sizing: border-box;/*текст в боксе*/
-  max-width: 800px;
-  left: 100px;
+  max-width: 900px;
+  left: 50px;
 }
 /********************************************/
  /* Footer */
