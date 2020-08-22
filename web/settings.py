@@ -26,7 +26,7 @@ SECRET_KEY = '#x@nf)6fwqfos3my(oe6drtxqe-0=&d6a@r1pflc4d7)q=@(u5'
 DEBUG = True
 
 ALLOWED_HOSTS = []
-
+#ALLOWED_HOSTS = [itlabx.com]
 
 # Application definition
 
