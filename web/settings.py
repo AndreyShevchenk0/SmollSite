@@ -23,10 +23,10 @@ STATIC_DIR = os.path.join(BASE_DIR, 'static')
 SECRET_KEY = '#x@nf)6fwqfos3my(oe6drtxqe-0=&d6a@r1pflc4d7)q=@(u5'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
-#ALLOWED_HOSTS = [itlabx.com]
+#ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['itlabx.com']
 
 # Application definition
 
