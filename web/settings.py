@@ -27,7 +27,7 @@ DEBUG = False
 
 #ALLOWED_HOSTS = []
 #ALLOWED_HOSTS = ['*']
-ALLOWED_HOSTS = ['itlabx.com', '*']
+ALLOWED_HOSTS = ['itlabx.com', '*', '18.194.6.192']
 
 # Application definition
 
